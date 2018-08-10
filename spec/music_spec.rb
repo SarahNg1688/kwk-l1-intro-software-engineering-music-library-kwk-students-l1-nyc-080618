@@ -13,6 +13,9 @@ describe 'Music Library' do
     }
   end
 
+
+
+
   describe '#list_artists' do
     it "prints out all the artists in the library using the each_key method" do
       output = capture_stdout { list_artists(@library) }

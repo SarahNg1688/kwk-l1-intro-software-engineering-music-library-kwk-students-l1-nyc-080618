@@ -11,7 +11,33 @@
 
 #4. This method should add a new artist and song (key value pair) to the hash and return the updated hash. 
 # This method should accept three arguments, the library hash, the artist, and the song.
+def list_artists
+@library = {
+      :taylor_swift => "Style",
+      :silento => "Watch Me",
+      :selena_gomez => "Good For You",
+      :mark_ronson => "Uptown Funk!",
+      :andy_grammer => "Honey I'm Good",
+      :maroon_five => "Sugar"
+    }
+library.each do
+  puts library.keys
+end 
+end
 
 
+def list_songs
+@library = {
+      :taylor_swift => "Style",
+      :silento => "Watch Me",
+      :selena_gomez => "Good For You",
+      :mark_ronson => "Uptown Funk!",
+      :andy_grammer => "Honey I'm Good",
+      :maroon_five => "Sugar"
+    }
 
+ library.each do 
+   puts library.values 
+  end
+end
 
